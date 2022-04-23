@@ -1,0 +1,215 @@
+// this will form the basis for the string fixes for this game. Simply add strings as needed and the installer will replace 
+// the corresponding string in the tlk. Remember to comment why a string is being updated. Once you have legitimate
+// strings to replace, rename this file WITHOUT the underscore at the beginning. 
+
+// symbol, pain is 12-ft radius; also adjusting trigger description to better match other symbol spells
+@8099 = ~Symbole, douleur
+(Conjuration/Convocation)
+
+
+Niveau : 7
+Sphère : Garde
+Portée : champ visuel du lanceur
+Durée : 11 tours
+Temps d'incantation : 3
+Zone d'effet : 3,60 mètres de rayon
+Jet de sauvegarde : annule
+
+
+Ce puissant enchantement permet au prêtre d'inscrire, à même le sol ou sur toute autre surface, un symbole qui y reste jusqu'à ce que quelqu'un approche. À ce moment, le symbole explose et toutes les créatures comprises dans la zone d'effet doivent réussir un jet de sauvegarde contre les sorts. En cas d'échec, la douleur qu'elles ressentent se traduit par -4 aux jets d'attaque et -2 en Dextérité et à la CA.~
+
+// ie-6007, cam - see also items clbhand, kaybow, lxbowbm, cdxbowbm, storm, flailsk; strings 8712, 8911, 40639, 25818, 27373
+// Weapon damage corrections
+@8663 = ~Arc Long Composite de la Main
+Cet objet a été créé au cours de l'âge d'or, par les elfes de la Main de la Seldarine et les nains de Profondorn.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : +3 (projectile)
+Facteur de vitesse : 7
+Type de compétence : arc long
+Type : arme à deux mains
+Nécessite : 15 en force
+
+Poids : 3~
+
+// ie-6007, cam - see also items clbhand, kaybow, lxbowbm, cdxbowbm, storm, flailsk; strings 8663, 8911, 40639, 25818, 27373
+// Weapon damage corrections
+@8712 = ~L'Arc de Kaylessa
+Cet arc appartenait à Kaylessa, maîtresse d'armes de la Main de la Seldarine. Son habileté à l'arc n'avait d'égale que sa beauté, et elle se vouait à améliorer les compétences martiales de tous ses soldats. S'il y eut des héros lors de la bataille de la Main de la Seldarine, Kaylessa en fit forcément partie. Elle fut un exemple de courage et mena bravement ses troupes au combat contre les orques et les gobelins. Même après la chute de la Main, elle resta fidèle aux siens. Son dernier souhait fut de mourir dans un combat glorieux.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- dextérité : +1
+
+TAC0 : +3
+Dégâts : +4
+Facteur de vitesse : 7
+Type de compétence : arc
+Type : arme à deux mains
+Nécessite : 15 en force
+
+Poids : 3~
+
+// ie-6007, cam - see also items clbhand, kaybow, lxbowbm, cdxbowbm, storm, flailsk; strings 8663, 8712, 40639, 25818, 27373
+// Weapon damage corrections
+@8911 = ~L'Arbalète de Bren Muller
+On ne sait presque rien de cette arme, si ce n'est que les sages pensent qu'elle provient d'un autre monde appelé "Eibrancha". Les mages capables de se déplacer entre les plans qui s'y sont rendus affirment qu'il s'agit d'un monde sans intérêt, où les héros sont rares et la populace terne à l'extrême. Cela pourrait expliquer pourquoi on ignore tout, ou presque, de ce lieu. Le seul détail connu au sujet du possesseur de l'arme est qu'il s'agissait d'un homme cultivé. Il paraîtrait que le bois violet à partir duquel l'arbalète a été conçue provient d'un type d'arbre qui ne se trouve qu'à Eibrancha.
+
+PARAMÈTRES :
+
+TAC0 : +5
+Dégâts : +3
+Facteur de vitesse : 4
+Type de compétence : arbalète
+Type : arme à deux mains
+Nécessite : 8 en force
+
+Poids : 7~
+
+// ie-6024, cam - see also string 18095, patches to uhxbw2a.itm and xbow01.itm
+// Two crossbows have the wrong strength requirement
+@14432 = ~Une arbalète est un arc monté en croix sur un manche en métal ou en bois, appelé alors un arbrier. L'arc est généralement fabriqué en bois de frêne ou d'if. L'arbalète décoche un carreau lourd (également appelé simplement carreau).
+
+PARAMÈTRES :
+
+TAC0 : +4
+Dégâts : +2 (projectile)
+Facteur de vitesse : 10
+Type de compétence : arbalète
+Type : arme à deux mains
+Nécessite : 11 en force
+
+Poids : 14~
+
+// ie-6026, cam - see also string updates to 21627 and thrym.itm, u1ham5b.itm
+// Revert changes to Thrym Extract and War Hammer +4: Defender (had wrong effects which were documented as if intended)
+@14913 = ~Marteau de Guerre Gardien
+Comme tous les autres marteaux, celui-ci est intégralement en acier. Sa tête capable de broyer les os de n'importe quelle créature a été montée sur un manche de 45 cm de long. Il bénéficie d'enchantements mineurs qui accroissent encore son efficacité.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- classe d'armure : +2
+- jets de sauvegarde contre les sort : +3
+- résistance aux dégâts tranchants : +15%
+- résistance aux dégâts perforants : +15%
+- résistance aux dégâts contondants : +15%
+- résistance à la magie : +15%
+
+TAC0 : +4
+Dégâts : 1d4 +5 (contondant)
+Facteur de vitesse : 3
+Type de compétence : marteau de guerre
+Type : arme à une main
+Nécessite : 9 en force
+
+Poids : 6~
+
+// ie-6024, cam - see also string 14432, patches to uhxbw2a.itm and xbow01.itm
+// Two crossbows have the wrong strength requirement
+@18095 = ~Une arbalète est un arc monté en croix sur un manche en métal ou en bois, appelé alors un arbrier. L'arc est généralement fabriqué en bois de frêne ou d'if. L'arbalète décoche un carreau lourd (également appelé simplement carreau).
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : +2 (projectile)
+Facteur de vitesse : 10
+Type de compétence : arbalète
+Type : arme à deux mains
+Nécessite : 11 en force
+
+Poids : 14~
+
+// tbd, cam
+// part of the soundset restorations, these two strings have the swapped sound assignments (see also 26213-26214)
+// it is incredibly unlikely that these need to be fixed in non-English games
+// ... skip, checked FTHIEF1M is the short one and FTHIEF1L is the longer one, which somewhat matches the transcription
+
+
+// ie-5925, cam
+// cause disease is an abjuration spell, not necromancy
+@21478 = ~Contagion
+(Abjuration)
+
+Niveau : 3
+Sphère : Guérison
+Portée : contact
+Durée : 8 heures
+Temps d'incantation : 9
+Zone d'effet : 1 créature
+Jet de sauvegarde : annule
+
+La créature touchée par le prêtre contracte une maladie qui lui fait perdre 5d4 points de Force si elle rate son jet de sauvegarde contre les sorts. Contagion reste sans effet sur les morts-vivants, créatures artificielles et créatures extra-planaires. Ce sort ne peut être jeté par les personnages d'alignement bon.~
+
+// ie-6026, cam - see also string updates to 14913 and thrym.itm, u1ham5b.itm
+// Revert changes to Thrym Extract and War Hammer +4: Defender (had wrong effects which were documented as if intended)
+@21627 = ~Ce liquide visqueux est obtenu à partir des glandes des vers polaires, puis distillée. C'est lui qui permet à ces monstres de se tenir au chaud malgré le froid du grand Nord. Boire le liquide au sortir des glandes est presque toujours fatal, ce qui explique que les alchimistes réduisent sa concentration en le distillant longuement. Même ainsi, cependant, il reste dangereux.
+
+PARAMÈTRES :
+
+Dégâts sur l'utilisateur : 8d6 dégâts de feu (jet de sauvegarde contre la mort à -4 pour annuler). Si l'utilisateur réussit son jet de sauvegarde, sa résistance au froid est fixée à 100 % pendant 4 rounds.
+
+Poids : 1~
+
+// ie-6007, cam - see also items clbhand, kaybow, lxbowbm, cdxbowbm, storm, flailsk; strings 8663, 8712, 8911, 40639, 27373
+// Weapon damage corrections
+@25818 = ~L'Arc des Tempêtes
+Cette arme est sacrée pour les guerriers de Talos, dieu des Tempêtes et de la Destruction, qui s'en servent depuis des décennies. Arc court composite constitué de plusieurs couches de bois, l'Arc des Tempêtes a été utilisé contre les myriades d'ennemis de l'Église de Talos. Tout récemment, il était encore en possession d'un Chevalier des Tempêtes du nom de Kalassan Brévered, qui fut abattu après avoir tué plusieurs druides et rôdeurs de l'archipel des Lunaë.
+
+PARAMÈTRES :
+
+Capacités de charge :
+- Protection anti-tempêtes une fois par jour (+50% de résistance au feu, au froid et à l'électricité)
+  Durée : 1 tour
+  Zone d'effet : le propriétaire
+
+TAC0 : +2
+Dégâts : +2
+Facteur de vitesse :  3
+Type de compétence : arc court
+Type : arme à deux mains
+Nécessite : 15 en force
+
+Poids : 3~
+
+// ie-6007, cam - see also items clbhand, kaybow, lxbowbm, cdxbowbm, storm, flailsk; strings 8663, 8712, 8911, 40639, 25818
+// Weapon damage corrections
+@27373 = ~Le Fléau aux Trois Crânes
+Le Fléau aux Trois Crânes, ou "Fléau à Dents" comme on l'appelle plus couramment fut construit en 1035 CV pour Wychgar, seigneur de guerre barbare. Au cours d'une bataille dans les déserts du Nord, passée à la postérité sous le nom de bataille de la Passe Sacrée, Wychgar perdit ses trois frères, tués par l'armée orque conduite par Kraag le Magnifique. Une fois la nuit tombée, l'inconsolable Wychgar retourna sur le champ de bataille pour chercher leurs dépouilles afin de leur offrir une sépulture convenable. Lorsqu'il les retrouva, il fut visité par les esprits de ses trois frères qui étaient "bloqués" entre le monde des vivants et celui des morts. Comme il ne pouvait les aider à regagner leur dernière demeure, il demanda à un chaman de les faire entrer dans le fléau. Les trois têtes du fléau sont les crânes de ses frères reliés au manche par des chaînes en argent. Les trois crânes arborent un rictus démoniaque à l'idée de cette nouvelle vie. Lorsque le fléau est utilisé en combat, les trois têtes mordent l'ennemi et lui arrachent des morceaux de chair.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- 10% de chances d'infliger +1d6 dégâts perforants à chaque coup au but
+
+TAC0 : +4
+Dégâts : 1d6 +5 (contondant), +1d4 (perforant) infligés par les morsures
+Facteur de vitesse : 5
+Type de compétence : fléau d'armes / morgenstern
+Type : arme à une main
+Nécessite : 13 en force
+
+Poids : 4~
+
+// ie-6007, cam - see also items clbhand, kaybow, lxbowbm, cdxbowbm, storm, flailsk; strings 8663, 8712, 8911, 25818, 27373
+// Weapon damage corrections
+@40639 =~L'arbalète de Bren Muller
+On ne sait presque rien de cette arme, si ce n'est que les sages pensent qu'elle provient d'un autre monde appelé "Eibrancha". Les mages capables de se déplacer entre les plans qui s'y sont rendus affirment qu'il s'agit d'un monde sans intérêt, où les héros sont rares et la populace terne à l'extrême. Cela pourrait expliquer pourquoi on ignore tout, ou presque, de ce lieu. Le seul détail connu au sujet du possesseur de l'arme est qu'il s'agissait d'un homme cultivé. Il paraîtrait que le bois violet à partir duquel l'arbalète a été conçue provient d'un type d'arbre qui ne se trouve qu'à Eibrancha.
+Après avoir contacté un autre plan et su qui était Bren Muller, vous avez appris que l'arbalète possède une autre faculté : une fois par jour, elle peut améliorer significativement la visée pendant deux rounds.
+
+PARAMÈTRES :
+
+Capacités de charge :
+- Visée mortelle une fois par jour (+5 au TAC0 pendant 2 rounds)
+
+TAC0 : +5
+Dégâts : +3
+Facteur de vitesse : 4
+Type de compétence : arbalète
+Type : arme à deux mains
+Nécessite : 8 en force
+
+Poids : 7~
