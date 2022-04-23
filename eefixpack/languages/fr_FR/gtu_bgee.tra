@@ -1,0 +1,21 @@
+// this will form the basis for the GTU for this game. Simply add strings as needed and the installer will replace 
+// the corresponding string in the tlk. Remember to comment why a string is being updated. Once you have legitimate
+// strings to replace, rename this file WITHOUT the underscore at the beginning. 
+
+// any strings >= 34000 are sod strings and should go into the gtu_bgee_sod.tra file instead. 
+
+// changing "Émotion : Désespoir" to "Émotion, désespoir" (other spells use a comma and no capital)
+@26455 = ~Émotion, désespoir~
+@26456 = ~Émotion, désespoir
+(Enchantement/Charme)
+
+Niveau : 4
+Portée : 15 mètres
+Durée : 9 rounds + 1 round par niveau à partir du 7ème
+Temps d'incantation : 4
+Zone d'effet : rayon de 4,50 mètres
+Jet de Sauvegarde : spécial
+
+Avec ce sort, le magicien peut modifier l'état émotionnel des créatures autour de lui. La conséquence : un sentiment de désespoir inspiré à tous les ennemis du lanceur dans son champ visuel. S'ils ratent leur Jet de Sauvegarde contre les sorts, ils se jettent à terre de désespoir. À l'expiration du sort, ils reviennent dans leur état normal.
+
+Le second effet de ce sort est de remplir de courage le lanceur du sort, ce qui supprime toute panique, remonte son moral, et l'immunise contre tout panique ou terreur qui pourrait suivre. Cette protection est automatique et couvre toute la durée du sort. Cependant, elle est affectée par la résistance magique et autres effets similaires.~

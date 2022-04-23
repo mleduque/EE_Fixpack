@@ -1,0 +1,18 @@
+// this will form the basis for the GTU for this game. Simply add strings as needed and the installer will replace 
+// the corresponding string in the tlk. Remember to comment why a string is being updated. Once you have legitimate
+// strings to replace, rename this file WITHOUT the underscore at the beginning.
+
+// changing "Émotion : Désespoir" to "Émotion, Désespoir" (other spells use a comma )
+// AND using non-braking spaces before colons
+// (@22173 was already OK)
+@22174 = ~Émotion, désespoir
+(Enchantement/Charme)
+
+Niveau : 4
+Portée : champ visuel du lanceur
+Durée : 2 rounds + 1 round par niveau
+Temps d'incantation : 4
+Zone d'effet : rayon de 18 mètres
+Jet de sauvegarde : spécial
+
+En jetant ce sort, le lanceur peut affecter l'état émotionnel de tous ceux qui l'entourent. Cela lui permet d'affubler les ennemis compris dans son champ de vision d'un intense désespoir. S'ils ratent leur jet de sauvegarde contre les sorts, ils s'allongent, déprimés. Certains marmonnent parfois des choses comme "Je me meurs" ou "Je rentre chez moi". Cet état se prolonge pendant toute la durée du sort, après quoi les créatures affectées redeviennent normales. L'effet secondaire de ce sort augmente le courage du lanceur. Toute panique qu'il pouvait éprouver est résorbée et son moral remonte. Cet effet bénéfique est obtenu sans jet de sauvegarde et dure jusqu'au terme du sort. Il peut toutefois être affecté par d'autres facteurs, tels que la résistance à la magie.~
