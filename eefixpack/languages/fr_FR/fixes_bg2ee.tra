@@ -1,0 +1,18 @@
+// this will form the basis for the string fixes for this game. Simply add strings as needed and the installer will replace
+// the corresponding string in the tlk. Remember to comment why a string is being updated. Once you have legitimate
+// strings to replace, rename this file WITHOUT the underscore at the beginning.
+
+// last line: the ruins are west of imnesvale, not north
+@17169 = ~Wallag
+Nous partons ce jour pour trouver la tanière du loup. Mes propres investigations ont confirmé les soupçons de Merella : une large meute de loups est présente dans la région. J'ai indiqué sur la carte ce que je pense être l'emplacement de la tanière. Suivez-nous si vous pouvez, mais soyez prudent. Nous ne pouvons pas nous permettre d'autres disparitions. À bientôt
+
+Mazzy
+
+(une carte simple mais ressemblante est dessinée sur la même feuille. Elle indique le chemin pour accéder à une zone de bois, plusieurs heures à l'ouest de la région d'Imnesvale.)~
+
+// second line: the ruins are west of imnesvale, not east
+@19723 = ~Cette demi-page de parchemin jaunie par l'âge est couverte de caractères à moitié effacés, mais encore lisibles :
+
+« Cette terre près des Collines d'Umar est riche en gisements de mithral, mais malheureusement, trop de malfrats et de bandits le savent et ils s'attaquent violemment aux prospecteurs de la région. J'ai trouvé une excellente cache pour mon mithral, que les voleurs ne trouveront jamais. Elle se trouve loin à l'ouest du village d'Imnesvale, dans une forêt... »
+
+La page a été déchirée en deux et le texte s'arrête ici.~
