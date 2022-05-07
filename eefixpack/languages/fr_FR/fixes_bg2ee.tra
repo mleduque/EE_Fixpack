@@ -16,3 +16,6 @@ Mazzy
 « Cette terre près des Collines d'Umar est riche en gisements de mithral, mais malheureusement, trop de malfrats et de bandits le savent et ils s'attaquent violemment aux prospecteurs de la région. J'ai trouvé une excellente cache pour mon mithral, que les voleurs ne trouveront jamais. Elle se trouve loin à l'ouest du village d'Imnesvale, dans une forêt... »
 
 La page a été déchirée en deux et le texte s'arrête ici.~
+
+// this item's name should state its enchantment level
+@57918 = "Carreau paralysant +1"

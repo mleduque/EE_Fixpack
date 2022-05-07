@@ -1,0 +1,21 @@
+// this will form the basis for the string fixes for this game. Simply add strings as needed and the installer will replace 
+// the corresponding string in the tlk. Remember to comment why a string is being updated. Once you have legitimate
+// strings to replace, rename this file WITHOUT the underscore at the beginning. 
+
+// any strings < 34000 are non-sod strings and should go into the fixes_bgee.tra file instead. 
+
+// strref #34567, updating because "X is misspelled"
+@34567 = ~This is a test replacement string.~
+
+// The weight in the description and in-game should be 0
+@52365 = "Toute cible touchée par ce carreau doit réussir un jet de sauvegarde ou être paralysée pendant 5 rounds.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée est étourdie pendant 5 rounds (jet de sauvegarde contre la paralysie pour annuler)
+
+Dégâts : 1d10 (projectile)
+Arme à distance : arbalète
+
+Poids : 0"
