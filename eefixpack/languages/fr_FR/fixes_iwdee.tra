@@ -213,3 +213,40 @@ Type : arme à deux mains
 Nécessite : 8 en force
 
 Poids : 7~
+
+// luke
+// The clause "The Druid is healed 12 Hit Points after using this ability." should not be missing
+// taken from @40313
+@40314 = ~Métamorphose en loup-garou
+
+Force : 19
+Dextérité : 16
+
+Classe d'Armure de base : 1
+Attaques par round : 2
+Dégâts : 1d6 (tranchant)
+
+Capacités spéciales :
+- résistance à la magie : 20 %
+
+Le druide récupère 12 points de vie après l'utilisation de cette capacité.~
+
+// luke
+// The clause "The Druid is healed 12 Hit Points after using this ability." should not be missing
+@40315 = ~Métamorphose en loup-garou majeur
+
+Force : 21
+Dextérité : 20
+
+Classe d'Armure de base : -6
+Attaques par round : 3
+Dégâts : 1d10 (tranchant)
+
+Capacités spéciales :
+- résistance au feu : 50 %
+- résistance au froid : 50 %
+- résistance à l'électricité : 50 %
+- résistance à l'acide : 50 %
+- résistance à la magie : 40 %
+
+Le druide récupère 12 points de vie après l'utilisation de cette capacité.~
