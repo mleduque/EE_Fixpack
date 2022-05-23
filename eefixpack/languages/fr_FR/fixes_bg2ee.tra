@@ -22,9 +22,10 @@ La page a été déchirée en deux et le texte s'arrête ici.~
 
 /*
 luke
-"Regenerates 1 Hit Point per 2 seconds" should not be missing
+- "Regenerates 1 Hit Point per 2 seconds"
+- "strikes as a +2 weapon"
+should not be missing
 */
-// trand, "strikes as a +2 weapon" is also missing
 @103011 = "Métamorphose en loup-garou majeur
 
 Force : 21
