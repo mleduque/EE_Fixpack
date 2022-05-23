@@ -464,7 +464,8 @@ Dégâts : 5d4 (tranchant), touche comme une arme +2
 Capacités spéciales :
 - résistance aux aux dégâts tranchants : 50 %
 - résistance aux aux dégâts perforants: 50 %
-- résistance aux aux dégâts projectiles : 50 %"
+- résistance aux aux dégâts projectiles : 50 %
+- vitesse de déplacement augmentée"
 
 /*
 luke
@@ -481,7 +482,8 @@ Dégâts : 1d12 (tranchant), touche comme une arme +3
 
 Capacités spéciales :
 - résistance au froid : 75 %
-- résistance au feu : -25 %"
+- résistance au feu : -25 %
+- vitesse de déplacement augmentée"
 
 /*
 luke
@@ -498,7 +500,8 @@ Dégâts : 1d6 (tranchant), touche comme une arme +1
 
 Capacités spéciales :
 - résistance au froid : 75 %
-- résistance au feu : -25 %"
+- résistance au feu : -25 %
+- vitesse de déplacement augmentée"
 
 /*
 luke
