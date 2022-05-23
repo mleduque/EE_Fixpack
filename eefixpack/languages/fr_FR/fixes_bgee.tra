@@ -1,0 +1,197 @@
+// this will form the basis for the string fixes for this game. Simply add strings as needed and the installer will replace 
+// the corresponding string in the tlk. Remember to comment why a string is being updated. Once you have legitimate
+// strings to replace, rename this file WITHOUT the underscore at the beginning. 
+
+// any strings >= 34000 are sod strings and should go into the fixes_bgee_sod.tra file instead. 
+
+/*
+luke
+- "Regenerates 1 Hit Point per 2 seconds"
+- "strikes as a +2 weapon"
+should not be missing
+*/
+@32329 = "Métamorphose en loup-garou majeur
+
+Force : 21
+Dextérité : 20
+
+Classe d'Armure de base : -6
+Attaques par round : 3
+Dégâts : 1d8 (tranchant), touche comme une arme +2
+
+Capacités spéciales :
+- résistance au feu : 50 %
+- résistance au froid : 50 %
+- résistance à l'électricité : 50 %
+- résistance à l'acide : 50 %
+- résistance à la magie : 40 %
+- régénération d'un point de vie toutes les 2 secondes"
+
+/*
+luke
+"strikes as a +1 weapon" should not be missing
+*/
+@32889 = "Métamorphose en Araignée-sabre
+
+Force : 16
+Dextérité : 16
+
+Classe d'Armure de base : 3
+Attaques par round : 4
+Dégâts : 2d6 (perforant), touche comme une arme +1
+
+Capacités spéciales :
+- immunité aux toiles d'araignées
+- Hâte permanente"
+
+/*
+luke
+"strikes as a +3 weapon" should not be missing
+*/
+// already the case in bg1ee 2.6.6
+
+/*
+luke
+"strikes as a +3 weapon" should not be missing
+*/
+@32247 = "Métamorphose en Gelée moutarde
+
+Force : 14
+Dextérité : 9
+
+Classe d'Armure de base : 4
+Attaques par round : 1
+Dégâts (à distance) : 5d4 (contondant), touche comme une arme +3, 1 dégât du poison toutes les 2 secondes pendant 5 rounds (jet de sauvegarde contre le poison à +2 pour annuler), ralentissement pendant 200 secondes (jet de sauvegarde contre les souffles à -2 pour annuler)
+
+Capacités spéciales :
+- résistance au froid : 50 %
+- résistance à l'électricité : 100 %
+- résistance à la magie : 125 %
+- résistance au froid magique : 50 %
+- résistance aux dégâts tranchants : 30 %
+- résistance aux dégâts contondants : 30 %
+- résistance aux dégâts perforants : 100 %
+- résistance aux dégâts projectiles : 85 %
+- immunité à l'étourdissement, au sommeil, à la peur, au poison, à la pétrification, à la confusion, au charme, à la paralysie et au drain de niveau
+- immunité aux armes non-magiques
+- vitesse de déplacement augmentée"
+
+/*
+luke
+- "strikes as a +2 weapon"
+- "Psionic Blast (stuns target for five rounds; Save vs. Spell negates)"
+should not be missing
+*/
+@32262 = "Métamorphose en flagelleur mental
+
+Force : 10
+Dextérité : 10
+
+Classe d'Armure de base : 5
+Attaques par round : 4
+Dégâts : 1d2 (contondant), touche comme une arme +2, 5 points de dégâts à l'intelligence
+
+Capacités spéciales :
+– Souffle psionique (étourdit la cible pendant 5 rounds ; jet de sauvegarde contre les sorts pour annuler)"
+
+/*
+luke
+"strikes as a +4 weapon" should not be missing
+*/
+@32263 = "Métamorphose en golem de fer
+
+Force : 24
+Dextérité : 9
+
+Classe d'Armure de base : 3
+Attaques par round : 1
+Dégâts : 4d10 (contondant), touche comme une arme +4
+
+Capacités spéciales : 
+- résistance au feu : 125 %
+- résistance au froid : 100 %
+- résistance à l'électricité : 100 %
+- résistance à l'acide : 100 %
+- résistance à la magie : 100 %
+- résistance au feu magique : 125 %
+- résistance au froid magique : 100 %
+- résistance aux dégâts tranchants : 20 %
+- résistance aux dégâts contondants : 20 %
+- résistance aux dégâts perforants : 20 %
+- résistance aux dégâts projectiles : 20 %
+- immunité aux armes +2 ou moins, aux attaques sournoises, au sommeil, à la peur, à l'immobilisation, au charme, à la paralysie et au poison"
+
+/*
+luke
+"strikes as a +2 weapon" should not be missing
+*/
+@32264 = "Métamorphose en troll géant
+
+Force : 18
+Dextérité : 20
+
+Classe d'Armure de base : 4
+Attaques par round : 3
+Dégâts : 2d6 (perforant), touche comme une arme +2
+
+Capacités spéciales :
+- immunité à l'étourdissement, au sommeil, à l'immobilisation
+- régénération d'un point de vie par seconde"
+
+/*
+luke
+"strikes as a +1 weapon" should not be missing
+*/
+// also loup-garou -> muloup
+@32265 = "Métamorphose en muloup majeur
+
+Force : 19
+Dextérité : 19
+
+Classe d'Armure de base : 2
+Attaques par round : 3
+Dégâts : 1d12 (tranchant), touche comme une arme +1
+
+Capacités spéciales :
+- résistance au feu : 50 %
+- résistance au froid : 50 %
+- résistance à l'électricité : 50 %
+- résistance à l'acide : 50 %
+- résistance au feu magique : 50 %
+- résistance au froid magique : 50 %
+- immunité aux armes d'enchantement 1 ou moins
+- régénération de 8 points de vie par seconde"
+
+/*
+luke
+"strikes as a +4 weapon" should not be missing
+*/
+@32266 = "Métamorphose en élémental de feu
+
+Force : 9
+Dextérité : 9
+
+Classe d'Armure de base : 2
+Attaques par round : 1
+Dégâts : 3d8 (contondant), +1d6 de feu, touche comme une arme +4
+
+Capacités spéciales :
+- résistance au feu : 100 %
+- résistance au feu magique : 100 %
+- immunité aux armes +2 ou moins"
+
+/*
+luke
+"strikes as a +4 weapon" should not be missing
+*/
+@32267 = "Métamorphose en élémental de terre
+
+Force : 19
+Dextérité : 9
+
+Classe d'Armure de base : 2
+Attaques par round : 1
+Dégâts : 4d8 (contondant), touche comme une arme +4
+
+Capacités spéciales :
+- immunité aux armes +2 ou moins"

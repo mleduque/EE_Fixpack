@@ -19,3 +19,192 @@ La page a été déchirée en deux et le texte s'arrête ici.~
 
 // this item's name should state its enchantment level
 @57918 = "Carreau paralysant +1"
+
+/*
+luke
+"Regenerates 1 Hit Point per 2 seconds" should not be missing
+*/
+// trand, "strikes as a +2 weapon" is also missing
+@103011 = "Métamorphose en loup-garou majeur
+
+Force : 21
+Dextérité : 20
+
+Classe d'armure de base : -6
+Attaques par round : 3
+Dégâts : 1d8 (tranchant), frappe comme une arme =2
+
+Capacités spéciales :
+- Résistance au feu : 50 %
+- Résistance au froid : 50 %
+- Résistance à l'électricité : 50 %
+- Résistance à l'acide : 50 %
+- Résistance à la magie : 40 %
+- Régénération d'un point de vie toutes les 2 secondes"
+
+/*
+luke
+"strikes as a +1 weapon" should not be missing
+*/
+@103237 = "Métamorphose en araignée-sabre
+
+Force : 16
+Dextérité : 16
+
+Classe d'armure de base : 3
+Attaques par round : 4
+Dégâts : 2d6 (perforant), frappe comme une arme +1
+
+Capacités spéciales :
+- Immunité contre les toiles d'araignées
+- Hâte"
+
+/*
+luke
+"strikes as a +3 weapon" should not be missing
+*/
+// trad: already the cas in french version
+
+/*
+luke
+"strikes as a +3 weapon" should not be missing
+*/
+@100375 = "Métamorphose en gelée moutarde
+
+Force : 14
+Dextérité : 9
+
+Classe d'armure de base : 4
+Attaques par round : 1
+Dégâts (à distance) : 5d4 (contondant), frappe comme uen arme +3, poison (1 dégât toutes les 2 secondes pendant 5 rounds ; jet de sauvegarde contre le poison de +2 pour annuler), ralentissement (200 secondes ; jet de sauvegarde contre les souffles de -2 pour annuler)
+
+Capacités spéciales :
+- Résistance au froid : 50 %
+- Résistance à l'électricité : 100 %
+- Résistance à la magie : 125 %
+- Résistance au froid magique : 50 %
+- Résistance aux dégâts tranchants : 30 %
+- Résistance aux dégâts contondants : 30 %
+- Résistance aux dégâts perforants : 100 %
+- Résistance aux dégâts de projectiles : 85 %
+- Immunité contre l'étourdissement, le sommeil, la peur, le poison, la pétrification, la confusion, le charme, la paralysie et le drain de niveau
+- Immunité contre les armes non magiques
+- Vitesse de déplacement augmentée"
+
+/*
+luke
+- "strikes as a +2 weapon"
+- "Psionic Blast (stuns target for five rounds; Save vs. Spell negates)"
+should not be missing
+*/
+@100390 = "Métamorphose en flagelleur mental
+
+Force : 10
+Dextérité : 10
+
+Classe d'armure de base : 5
+Attaques par round : 4
+Dégâts : 1d2 (contondant), frappe comme une arme +2, -5 d'Intelligence
+
+Capacités spéciales :
+– Souffle psionique (étourdit la cible pendant 5 rounds ; jet de sauvegarde contre les sorts pour annuler)"
+
+/*
+luke
+"strikes as a +4 weapon" should not be missing
+*/
+@100391 = "Métamorphose en golem de fer
+
+Force : 24
+Dextérité : 9
+
+Classe d'armure de base : 3
+Attaques par round : 1
+Dégâts : 4d10 (contondant), frappe comme une arme +4
+
+Capacités spéciales :
+- Résistance au feu : 125 %
+- Résistance au froid : 100 %
+- Résistance à l'électricité : 100 %
+- Résistance à l'acide : 100 %
+- Résistance à la magie : 100 %
+- Résistance au feu magique : 125 %
+- Résistance au froid magique : 100 %
+- Résistance aux dégâts tranchants : 20 %
+- Résistance aux dégâts contondants : 20 %
+- Résistance aux dégâts perforants : 20 %
+- Résistance aux dégâts de projectiles : 20 %
+- Immunité contre les attaques sournoises, les armes d'enchantement de +2 ou moins, le sommeil, la peur, l'immobilisation, le charme, la paralysie et le poison."
+
+/*
+luke
+"strikes as a +2 weapon" should not be missing
+*/
+@100392 = "Métamorphose en troll géant
+
+Force : 18
+Dextérité : 20
+
+Classe d'armure de base : 4
+Attaques par round : 3
+Dégâts : 2d6 (perforant), frappe comme une arme +2
+
+Capacités spéciales :
+- Immunité contre l'étourdissement, le sommeil, l'immobilisation et la paralysie ; régénère un point de vie par seconde."
+
+/*
+luke
+"strikes as a +1 weapon" should not be missing
+*/
+@100393 = "Métamorphose en muloup majeur
+
+Force : 19
+Dextérité : 19
+
+Classe d'armure de base : 2
+Attaques par round : 3
+Dégâts : 1d12 (tranchant), frappe comme uen arme +1
+
+Capacités spéciales :
+- Résistance au feu : 50 %
+- Résistance au froid : 50 %
+- Résistance à l'électricité : 50 %
+- Résistance à l'acide : 50 %
+- Résistance au feu magique : 50 %
+- Résistance au froid magique : 50 %
+- Immunité contre les armes d'enchantement de +1 ou moins
+- Régénère 8 points de vie par seconde"
+
+/*
+luke
+"strikes as a +4 weapon" should not be missing
+*/
+@100394 = "Métamorphose en élémentaire de feu
+
+Force : 9
+Dextérité : 9
+
+Classe d'armure de base : 2
+Attaques par round : 1
+Dégâts : 3d8 (contondant), +1d6 points de dégâts de feu, frappe comme une arme +4
+
+Capacités spéciales :
+- Résistance au feu : 100 %
+- Résistance au feu magique : 100 %
+- Immunité contre les armes d'enchantement +2 ou moins."
+
+/*
+luke
+"strikes as a +4 weapon" should not be missing
+*/
+@100395 = "Métamorphose en élémentaire de terre
+
+Force : 19
+Dextérité : 9
+
+Classe d'armure de base : 2 
+Attaques par round : 1
+Dégâts : 4d8 (contondant), frappe comme une arme +4
+
+Capacités spéciales :
+- Immunité contre les armes d'enchantement +2 ou moins."

@@ -39,74 +39,74 @@ Poids : 3~
 @8712 = ~L'Arc de Kaylessa
 Cet arc appartenait à Kaylessa, maîtresse d'armes de la Main de la Seldarine. Son habileté à l'arc n'avait d'égale que sa beauté, et elle se vouait à améliorer les compétences martiales de tous ses soldats. S'il y eut des héros lors de la bataille de la Main de la Seldarine, Kaylessa en fit forcément partie. Elle fut un exemple de courage et mena bravement ses troupes au combat contre les orques et les gobelins. Même après la chute de la Main, elle resta fidèle aux siens. Son dernier souhait fut de mourir dans un combat glorieux.
 
-PARAMÈTRES :
+PARAMÈTRES :
 
-Capacités d'équipement :
-- dextérité : +1
+Capacités d'équipement :
+- dextérité : +1
 
-TAC0 : +3
-Dégâts : +4
-Facteur de vitesse : 7
-Type de compétence : arc
-Type : arme à deux mains
-Nécessite : 15 en force
+TAC0 : +3
+Dégâts : +4
+Facteur de vitesse : 7
+Type de compétence : arc
+Type : arme à deux mains
+Nécessite : 15 en force
 
-Poids : 3~
+Poids : 3~
 
 // ie-6007, cam - see also items clbhand, kaybow, lxbowbm, cdxbowbm, storm, flailsk; strings 8663, 8712, 40639, 25818, 27373
 // Weapon damage corrections
 @8911 = ~L'Arbalète de Bren Muller
 On ne sait presque rien de cette arme, si ce n'est que les sages pensent qu'elle provient d'un autre monde appelé "Eibrancha". Les mages capables de se déplacer entre les plans qui s'y sont rendus affirment qu'il s'agit d'un monde sans intérêt, où les héros sont rares et la populace terne à l'extrême. Cela pourrait expliquer pourquoi on ignore tout, ou presque, de ce lieu. Le seul détail connu au sujet du possesseur de l'arme est qu'il s'agissait d'un homme cultivé. Il paraîtrait que le bois violet à partir duquel l'arbalète a été conçue provient d'un type d'arbre qui ne se trouve qu'à Eibrancha.
 
-PARAMÈTRES :
+PARAMÈTRES :
 
-TAC0 : +5
-Dégâts : +3
-Facteur de vitesse : 4
-Type de compétence : arbalète
-Type : arme à deux mains
-Nécessite : 8 en force
+TAC0 : +5
+Dégâts : +3
+Facteur de vitesse : 4
+Type de compétence : arbalète
+Type : arme à deux mains
+Nécessite : 8 en force
 
-Poids : 7~
+Poids : 7~
 
 // ie-6024, cam - see also string 18095, patches to uhxbw2a.itm and xbow01.itm
 // Two crossbows have the wrong strength requirement
 @14432 = ~Une arbalète est un arc monté en croix sur un manche en métal ou en bois, appelé alors un arbrier. L'arc est généralement fabriqué en bois de frêne ou d'if. L'arbalète décoche un carreau lourd (également appelé simplement carreau).
 
-PARAMÈTRES :
+PARAMÈTRES :
 
-TAC0 : +4
-Dégâts : +2 (projectile)
-Facteur de vitesse : 10
-Type de compétence : arbalète
-Type : arme à deux mains
-Nécessite : 11 en force
+TAC0 : +4
+Dégâts : +2 (projectile)
+Facteur de vitesse : 10
+Type de compétence : arbalète
+Type : arme à deux mains
+Nécessite : 11 en force
 
-Poids : 14~
+Poids : 14~
 
 // ie-6026, cam - see also string updates to 21627 and thrym.itm, u1ham5b.itm
 // Revert changes to Thrym Extract and War Hammer +4: Defender (had wrong effects which were documented as if intended)
 @14913 = ~Marteau de Guerre Gardien
 Comme tous les autres marteaux, celui-ci est intégralement en acier. Sa tête capable de broyer les os de n'importe quelle créature a été montée sur un manche de 45 cm de long. Il bénéficie d'enchantements mineurs qui accroissent encore son efficacité.
 
-PARAMÈTRES :
+PARAMÈTRES :
 
-Capacités d'équipement :
-- classe d'armure : +2
-- jets de sauvegarde contre les sort : +3
-- résistance aux dégâts tranchants : +15%
-- résistance aux dégâts perforants : +15%
-- résistance aux dégâts contondants : +15%
-- résistance à la magie : +15%
+Capacités d'équipement :
+- classe d'armure : +2
+- jets de sauvegarde contre les sort : +3
+- résistance aux dégâts tranchants : +15 %
+- résistance aux dégâts perforants : +15 %
+- résistance aux dégâts contondants : +15 %
+- résistance à la magie : +15 %
 
-TAC0 : +4
-Dégâts : 1d4 +5 (contondant)
-Facteur de vitesse : 3
-Type de compétence : marteau de guerre
-Type : arme à une main
-Nécessite : 9 en force
+TAC0 : +4
+Dégâts : 1d4 +5 (contondant)
+Facteur de vitesse : 3
+Type de compétence : marteau de guerre
+Type : arme à une main
+Nécessite : 9 en force
 
-Poids : 6~
+Poids : 6~
 
 // ie-6024, cam - see also string 14432, patches to uhxbw2a.itm and xbow01.itm
 // Two crossbows have the wrong strength requirement
@@ -114,7 +114,7 @@ Poids : 6~
 
 PARAMÈTRES :
 
-TAC0 : +2
+TAC0 : +2
 Dégâts : +2 (projectile)
 Facteur de vitesse : 10
 Type de compétence : arbalète
@@ -134,13 +134,13 @@ Poids : 14~
 @21478 = ~Contagion
 (Abjuration)
 
-Niveau : 3
-Sphère : Guérison
-Portée : contact
-Durée : 8 heures
-Temps d'incantation : 9
-Zone d'effet : 1 créature
-Jet de sauvegarde : annule
+Niveau : 3
+Sphère : Guérison
+Portée : contact
+Durée : 8 heures
+Temps d'incantation : 9
+Zone d'effet : 1 créature
+Jet de sauvegarde : annule
 
 La créature touchée par le prêtre contracte une maladie qui lui fait perdre 5d4 points de Force si elle rate son jet de sauvegarde contre les sorts. Contagion reste sans effet sur les morts-vivants, créatures artificielles et créatures extra-planaires. Ce sort ne peut être jeté par les personnages d'alignement bon.~
 
@@ -148,74 +148,78 @@ La créature touchée par le prêtre contracte une maladie qui lui fait perdre 5
 // Revert changes to Thrym Extract and War Hammer +4: Defender (had wrong effects which were documented as if intended)
 @21627 = ~Ce liquide visqueux est obtenu à partir des glandes des vers polaires, puis distillée. C'est lui qui permet à ces monstres de se tenir au chaud malgré le froid du grand Nord. Boire le liquide au sortir des glandes est presque toujours fatal, ce qui explique que les alchimistes réduisent sa concentration en le distillant longuement. Même ainsi, cependant, il reste dangereux.
 
-PARAMÈTRES :
+PARAMÈTRES :
 
-Dégâts sur l'utilisateur : 8d6 dégâts de feu (jet de sauvegarde contre la mort à -4 pour annuler). Si l'utilisateur réussit son jet de sauvegarde, sa résistance au froid est fixée à 100 % pendant 4 rounds.
+Dégâts sur l'utilisateur : 8d6 dégâts de feu (jet de sauvegarde contre la mort à -4 pour annuler). Si l'utilisateur réussit son jet de sauvegarde, sa résistance au froid est fixée à 100 % pendant 4 rounds.
 
-Poids : 1~
+Poids : 1~
 
 // ie-6007, cam - see also items clbhand, kaybow, lxbowbm, cdxbowbm, storm, flailsk; strings 8663, 8712, 8911, 40639, 27373
 // Weapon damage corrections
 @25818 = ~L'Arc des Tempêtes
 Cette arme est sacrée pour les guerriers de Talos, dieu des Tempêtes et de la Destruction, qui s'en servent depuis des décennies. Arc court composite constitué de plusieurs couches de bois, l'Arc des Tempêtes a été utilisé contre les myriades d'ennemis de l'Église de Talos. Tout récemment, il était encore en possession d'un Chevalier des Tempêtes du nom de Kalassan Brévered, qui fut abattu après avoir tué plusieurs druides et rôdeurs de l'archipel des Lunaë.
 
-PARAMÈTRES :
+PARAMÈTRES :
 
-Capacités de charge :
-- Protection anti-tempêtes une fois par jour (+50% de résistance au feu, au froid et à l'électricité)
-  Durée : 1 tour
-  Zone d'effet : le propriétaire
+Capacités de charge :
+- Protection anti-tempêtes une fois par jour (+50 % de résistance au feu, au froid et à l'électricité)
+  Durée : 1 tour
+  Zone d'effet : le propriétaire
 
-TAC0 : +2
-Dégâts : +2
-Facteur de vitesse :  3
-Type de compétence : arc court
-Type : arme à deux mains
-Nécessite : 15 en force
+TAC0 : +2
+Dégâts : +2
+Facteur de vitesse :  3
+Type de compétence : arc court
+Type : arme à deux mains
+Nécessite : 15 en force
 
-Poids : 3~
+Poids : 3~
 
 // ie-6007, cam - see also items clbhand, kaybow, lxbowbm, cdxbowbm, storm, flailsk; strings 8663, 8712, 8911, 40639, 25818
 // Weapon damage corrections
 @27373 = ~Le Fléau aux Trois Crânes
 Le Fléau aux Trois Crânes, ou "Fléau à Dents" comme on l'appelle plus couramment fut construit en 1035 CV pour Wychgar, seigneur de guerre barbare. Au cours d'une bataille dans les déserts du Nord, passée à la postérité sous le nom de bataille de la Passe Sacrée, Wychgar perdit ses trois frères, tués par l'armée orque conduite par Kraag le Magnifique. Une fois la nuit tombée, l'inconsolable Wychgar retourna sur le champ de bataille pour chercher leurs dépouilles afin de leur offrir une sépulture convenable. Lorsqu'il les retrouva, il fut visité par les esprits de ses trois frères qui étaient "bloqués" entre le monde des vivants et celui des morts. Comme il ne pouvait les aider à regagner leur dernière demeure, il demanda à un chaman de les faire entrer dans le fléau. Les trois têtes du fléau sont les crânes de ses frères reliés au manche par des chaînes en argent. Les trois crânes arborent un rictus démoniaque à l'idée de cette nouvelle vie. Lorsque le fléau est utilisé en combat, les trois têtes mordent l'ennemi et lui arrachent des morceaux de chair.
 
-PARAMÈTRES :
+PARAMÈTRES :
 
-Capacités de combat :
-- 10% de chances d'infliger +1d6 dégâts perforants à chaque coup au but
+Capacités de combat :
+- 10 % de chances d'infliger +1d6 dégâts perforants à chaque coup au but
 
-TAC0 : +4
-Dégâts : 1d6 +5 (contondant), +1d4 (perforant) infligés par les morsures
-Facteur de vitesse : 5
-Type de compétence : fléau d'armes / morgenstern
-Type : arme à une main
-Nécessite : 13 en force
+TAC0 : +4
+Dégâts : 1d6 +5 (contondant), +1d4 (perforant) infligés par les morsures
+Facteur de vitesse : 5
+Type de compétence : fléau d'armes / morgenstern
+Type : arme à une main
+Nécessite : 13 en force
 
-Poids : 4~
+Poids : 4~
 
 // ie-6007, cam - see also items clbhand, kaybow, lxbowbm, cdxbowbm, storm, flailsk; strings 8663, 8712, 8911, 25818, 27373
 // Weapon damage corrections
 @40639 =~L'arbalète de Bren Muller
 On ne sait presque rien de cette arme, si ce n'est que les sages pensent qu'elle provient d'un autre monde appelé "Eibrancha". Les mages capables de se déplacer entre les plans qui s'y sont rendus affirment qu'il s'agit d'un monde sans intérêt, où les héros sont rares et la populace terne à l'extrême. Cela pourrait expliquer pourquoi on ignore tout, ou presque, de ce lieu. Le seul détail connu au sujet du possesseur de l'arme est qu'il s'agissait d'un homme cultivé. Il paraîtrait que le bois violet à partir duquel l'arbalète a été conçue provient d'un type d'arbre qui ne se trouve qu'à Eibrancha.
-Après avoir contacté un autre plan et su qui était Bren Muller, vous avez appris que l'arbalète possède une autre faculté : une fois par jour, elle peut améliorer significativement la visée pendant deux rounds.
+Après avoir contacté un autre plan et su qui était Bren Muller, vous avez appris que l'arbalète possède une autre faculté : une fois par jour, elle peut améliorer significativement la visée pendant deux rounds.
 
-PARAMÈTRES :
+PARAMÈTRES :
 
-Capacités de charge :
+Capacités de charge :
 - Visée mortelle une fois par jour (+5 au TAC0 pendant 2 rounds)
 
-TAC0 : +5
-Dégâts : +3
-Facteur de vitesse : 4
-Type de compétence : arbalète
-Type : arme à deux mains
-Nécessite : 8 en force
+TAC0 : +5
+Dégâts : +3
+Facteur de vitesse : 4
+Type de compétence : arbalète
+Type : arme à deux mains
+Nécessite : 8 en force
 
-Poids : 7~
+Poids : 7~
 
-// luke
-// The clause "The Druid is healed 12 Hit Points after using this ability." should not be missing
+/*
+luke
+- "The Druid is healed 12 Hit Points after using this ability."
+- "strikes as a +2 weapon"
+should not be missing
+*/
 // taken from @40313
 @40314 = ~Métamorphose en loup-garou
 
@@ -224,15 +228,20 @@ Dextérité : 16
 
 Classe d'Armure de base : 1
 Attaques par round : 2
-Dégâts : 1d6 (tranchant)
+Dégâts : 1d6 (tranchant), touche comme une arme +2
 
 Capacités spéciales :
 - résistance à la magie : 20 %
 
 Le druide récupère 12 points de vie après l'utilisation de cette capacité.~
 
-// luke
-// The clause "The Druid is healed 12 Hit Points after using this ability." should not be missing
+/*
+luke
+- "strikes as a +3 weapon"
+- "The Druid is healed 12 Hit Points after using this ability."
+- "Regenerates 1 Hit Point per 2 seconds."
+should not be missing
+*/
 @40315 = ~Métamorphose en loup-garou majeur
 
 Force : 21
@@ -240,7 +249,7 @@ Dextérité : 20
 
 Classe d'Armure de base : -6
 Attaques par round : 3
-Dégâts : 1d10 (tranchant)
+Dégâts : 1d10 (tranchant), touche comme une arme +3
 
 Capacités spéciales :
 - résistance au feu : 50 %
@@ -248,5 +257,438 @@ Capacités spéciales :
 - résistance à l'électricité : 50 %
 - résistance à l'acide : 50 %
 - résistance à la magie : 40 %
+- régénération d'un point de vie toutes les 2 secondes
 
 Le druide récupère 12 points de vie après l'utilisation de cette capacité.~
+
+
+/*
+luke
+"strikes as a +1 weapon" should not be missing
+*/
+@36172 = "Métamorphose en araignée-sabre
+
+Force : 16
+Dextérité : 16
+
+Classe d'Armure de base : 3
+Attaques par round : 4
+Dégâts : 2d6 (perforant), touche comme une arme +1
+
+Capacités spéciales :
+- Hâte permanente
+- immunité aux toiles d'araignées
+
+Le druide récupère 12 points de vie après avoir utilisé cette capacité."
+
+/*
+luke
+"strikes as a +1 weapon" should not be missing
+*/
+@36173 = "Métamorphose en bébé wiverne
+
+Force : 16
+Dextérité : 17
+
+Classe d'Armure de base : 3
+Attaques par round : 2
+Dégâts : 1d8 (perforant), touche comme une arme +1, 1 dégât du poison par seconde pendant 1 round (jet de sauvegarde contre le poison pour annuler)
+
+Capacités spéciales :
+- immunité à l'immobilisation, la paralysie, le ralentissement, l'absorption de niveau, la toile d'araignée, l'enchevêtrement et la glisse
+- le druide récupère 12 points de vie à l'issue de cette métamorphose"
+
+/*
+luke
+"strikes as a +3 weapon" should not be missing
+*/
+@36174 = "Métamorphose en salamandre de feu mineure
+
+Force : 18/75
+Dextérité : 19
+
+Classe d'Armure de base : 5
+Attaques par round : 1
+Dégâts : 1d8 (perforant), +1 dégât de feu, touche comme une arme +3
+
+Capacités spéciales :
+- vitesse de mouvement doublée
+- résistance au feu : 100
+- résistance au froid : -12
+- Aura de feu mineure : toutes les créatures à moins d'1,5 mètre de distance subissent 1d2 dégâts de feu
+- le druide récupère 12 points de vie à l'issue de cette métamorphose"
+
+/*
+luke
+"strikes as a +3 weapon" should not be missing
+*/
+@40310 = "Métamorphose en ours polaire
+
+Force : 18/00
+Dextérité : 10
+
+Classe d'Armure de base : 4
+Attaques par round : 3
+Dégâts : 1d12 (tranchant), touche comme une arme +3
+
+Capacités spéciales :
+- résistance au froid : 75 %
+- résistance au feu : -25 %
+
+Le druide récupère 12 points de vie après l'utilisation de cette capacité."
+
+/*
+luke
+"strikes as a +1 weapon" should not be missing
+*/
+@40308 = "Métamorphose en loup arctique
+
+Force : 18
+Dextérité : 13
+
+Classe d'Armure de base : 2
+Attaques par round : 2
+Dégâts : 1d6 (tranchant), touche comme une arme +1
+
+Capacités spéciales :
+- résistance au froid : 75 %
+- résistance au feu : -25 %
+
+Le druide récupère 12 points de vie après l'utilisation de cette capacité."
+
+/*
+luke
+"strikes as a +2 weapon" should not be missing
+*/
+@40309 = "Métamorphose en scarabée scolyte
+
+Force : 18/51
+Dextérité : 7
+
+Classe d'Armure de base : -2
+Attaques par round : 1
+Dégâts : 5d4 (tranchant), touche comme une arme +2
+
+Capacités spéciales :
+- résistance aux dégâts tranchants : 50 %
+- résistance aux dégâts perforants : 50 %
+- résistance aux dégâts projectiles : 50 %
+
+Le druide récupère 12 points de vie après l'utilisation de cette capacité."
+
+/*
+luke
+"strikes as a +4 weapon" should not be missing
+*/
+@40311 = "Métamorphose en élémentaire de feu
+
+Force : 19
+Dextérité : 9
+
+Classe d'Armure de base : 2
+Attaques par round : 1
+Dégâts : 1d8 (contondant) + 1d4 dégâts de feu, touche comme une arme +4
+
+Capacités spéciales :
+- résistance au froid : -50 %
+- résistance au feu : 100 %
+- résistance à l'acide : 15 %
+- résistance à l'électricité : 15 %
+- résistance aux dégâts tranchants : 15 %
+- résistance aux dégâts contondants : 15 %
+- résistance aux dégâts perforants : 15 %
+- résistance aux dégâts projectiles : 15 %
+
+Le druide récupère 12 points de vie après l'utilisation de cette capacité."
+
+/*
+luke
+"strikes as a +4 weapon" should not be missing
+*/
+@40312 = "Métamorphose en élémentaire de terre
+
+Force : 23
+Dextérité : 5
+
+Classe d'Armure de base : -2
+Attaques par round : 1
+Dégâts : 4d8 (contondant), touche comme une arme +4
+
+Capacités spéciales :
+- résistance au froid : 25 %
+- résistance au feu : 25 %
+- résistance aux dégâts tranchants : 50 %
+- résistance aux dégâts contondants : -50 %
+- résistance aux dégâts perforants : 50 %
+- résistance aux dégâts projectiles : 75 %
+
+Le druide récupère 12 points de vie après l'utilisation de cette capacité."
+
+/*
+luke
+"strikes as a +4 weapon" should not be missing
+*/
+@40313 = "Métamorphose en élémentaire d'eau
+
+Force : 18
+Dextérité : 14
+
+Classe d'Armure de base : -2
+Attaques par round : 1
+Dégâts : 4d8 (contondant), touche comme une arme +4
+
+Capacités spéciales :
+- résistance au froid : -25 %
+- résistance à l'électricité : -75 %
+- résistance à l'acide : 75 %
+- résistance aux dégâts tranchants : 75 %
+- résistance aux dégâts contondants : 75 %
+- résistance aux dégâts perforants : 75 %
+- résistance aux dégâts projectiles : 75 %
+
+Le druide récupère 12 points de vie après l'utilisation de cette capacité."
+
+/*
+luke
+"strikes as a +2 weapon" should not be missing
+*/
+@40941 = "Métamorphose en scarabée scolyte
+
+Force : 18/51
+Dextérité : 7
+
+Classe d'Armure de base : -2
+Attaques par round : 1
+Dégâts : 5d4 (tranchant), touche comme une arme +2
+
+Capacités spéciales :
+- résistance aux aux dégâts tranchants : 50 %
+- résistance aux aux dégâts perforants: 50 %
+- résistance aux aux dégâts projectiles : 50 %"
+
+/*
+luke
+"strikes as a +3 weapon" should not be missing
+*/
+@40939 = "Métamorphose en ours polaire
+
+Force : 18/00
+Dextérité : 10
+
+Classe d'Armure de base : 4
+Attaques par round : 3
+Dégâts : 1d12 (tranchant), touche comme une arme +3
+
+Capacités spéciales :
+- résistance au froid : 75 %
+- résistance au feu : -25 %"
+
+/*
+luke
+"strikes as a +1 weapon" should not be missing
+*/
+@40940 = "Métamorphose en loup des glaces
+
+Force : 18
+Dextérité : 13
+
+Classe d'Armure de base : 2
+Attaques par round : 2
+Dégâts : 1d6 (tranchant), touche comme une arme +1
+
+Capacités spéciales :
+- résistance au froid : 75 %
+- résistance au feu : -25 %"
+
+/*
+luke
+"strikes as a +3 weapon" should not be missing
+*/
+@36597 = "Métamorphose en Gelée moutarde
+
+Force : 14
+Dextérité : 9
+
+Classe d'Armure de base : 4
+Attaques par round : 1
+Dégâts (projectile) : 1d6 (contondant), touche comme une arme +3, 1 dégât du poison toutes les 2 secondes pendant 5 rounds (jet de sauvegarde contre le poison à +2 pour annuler), ralentissement pendant 20 secondes (jet de sauvegarde contre les souffles à -2 pour annuler)
+
+Capacités spéciales :
+- résistance au froid : 50 %
+- résistance à l'électricité : 100 %
+- résistance à la magie : 100 %
+- résistance au froid magique : 50 %
+- résistance aux dégâts tranchants : 30 %
+- résistance aux dégâts contondants : 60 %
+- résistance aux dégâts perforants : 100 %
+- résistance aux dégâts projectiles : 85 %
+- immunité à l'étourdissement, au sommeil, à la peur, au poison, à la pétrification, à la confusion, au charme, à la paralysie et au drain de niveau
+- immunité aux armes non-magiques
+- vitesse de déplacement augmentée"
+
+/*
+luke
+- "strikes as a +2 weapon"
+- "Psionic Blast (stuns target for five rounds; Save vs. Spell negates)"
+should not be missing
+*/
+@36176 = "Métamorphose en flagelleur mental
+
+Force : 10
+Dextérité : 10
+
+Classe d'Armure de base : 5
+Attaques par round : 4
+Dégâts : 1d2 (contondant), touche comme une arme +2, 5 points de dégâts à l'intelligence
+
+Capacités spéciales :
+– Souffle psionique (étourdit la cible pendant 5 rounds ; jet de sauvegarde contre les sorts pour annuler)"
+
+/*
+luke
+"strikes as a +4 weapon" should not be missing
+*/
+@36178 = "Métamorphose en golem de fer
+
+Force : 24
+Dextérité : 9
+
+Classe d'Armure de base : 3
+Attaques par round : 1
+Dégâts : 4d10 (contondant), touche comme une arme +4
+
+Capacités spéciales : 
+- résistance au feu : 125 %
+- résistance au froid : 100 %
+- résistance à l'électricité : 100 %
+- résistance à l'acide : 100 %
+- résistance à la magie : 100 %
+- résistance au feu magique : 125 %
+- résistance au froid magique : 100 %
+- résistance aux dégâts tranchants : 20 %
+- résistance aux dégâts contondants : 20 %
+- résistance aux dégâts perforants : 20 %
+- résistance aux dégâts projectiles : 20 %
+- immunité aux attaques sournoises, au poison, à la maladie et au sort de Nuage mortel"
+
+/*
+luke
+"strikes as a +2 weapon" should not be missing
+*/
+@36180 = "Métamorphose en troll géant
+
+Force : 18/00
+Dextérité : 20
+
+Classe d'Armure de base : 4
+Attaques par round : 3
+Dégâts : 2d6 (perforant), touche comme une arme +2
+
+Capacités spéciales :
+- immunité à l'étourdissement, au sommeil, à l'immobilisation
+- régénération d'un point de vie par seconde"
+
+/*
+luke
+"strikes as a +1 weapon" should not be missing
+*/
+// also loup-garou -> muloup
+@36182 = "Métamorphose en muloup majeur
+
+Force : 19
+Dextérité : 19
+
+Classe d'Armure de base : 2
+Attaques par round : 3
+Dégâts : 1d12 (tranchant), touche comme une arme +1
+
+Capacités spéciales :
+- résistance au feu : 50 %
+- résistance au froid : 50 %
+- résistance à l'électricité : 50 %
+- résistance à l'acide : 50 %
+- résistance au feu magique : 40 %
+- résistance au froid magique : 40 %
+- régénération de 8 points de vie par seconde
+- immunité aux armes d'enchantement 1 ou moins"
+
+/*
+luke
+"strikes as a +4 weapon" should not be missing
+*/
+/*
+mleduque: the original french translation lacks many resistances
+adds cold 50, slash/buldg/perf/proj 15 from english
+adds acid 15, electricity 15 as https://www.gibberlings3.net/forums/topic/34925-shapeshifting-inconsistencies/?do=findComment&comment=310797
+*/
+@36184 = "Métamorphose en élémental de feu
+
+Force : 9
+Dextérité : 9
+
+Classe d'Armure de base : 2
+Attaques par round : 1
+Dégâts : 3d8 (contondant), +1d6 de feu, touche comme une arme +4
+
+Capacités spéciales :
+- résistance au feu : 100 %
+- résistance au feu magique : 100 %
+- résistance au froid : -50 %
+- résistance à l'acide : 15 %
+- résistance à l'électricité : 15 %
+- résistance aux dégâts tranchants : 15 %
+- résistance aux dégâts contondants : 15 %
+- résistance aux dégâts perforants : 15 %
+- résistance aux dégâts projectiles : 15 %
+- immunité aux armes +2 ou moins"
+
+/*
+luke
+"strikes as a +4 weapon" should not be missing
+*/
+/*
+mleduque
+Added cold/fire 25 (corrected from 20 as https://www.gibberlings3.net/forums/topic/34925-shapeshifting-inconsistencies/?do=findComment&comment=310797)
+Added slash/buldg/perf/proj from english
+*/
+@36186 = "Métamorphose en élémental de terre
+
+Force : 19
+Dextérité : 9
+
+Classe d'Armure de base : 2
+Attaques par round : 1
+Dégâts : 4d8 (contondant), touche comme une arme +4
+
+Capacités spéciales :
+- résistance au froid : 25 %
+- résistance au feu : 25 %
+- résistance aux dégâts tranchants : 50 %
+- résistance aux dégâts contondants : -50 %
+- résistance aux dégâts perforants : 50 %
+- résistance aux dégâts projectiles : 75 %
+- immunité aux armes +2 ou moins"
+
+/*
+luke
+- "strikes as a +4 weapon" should not be missing
+- "The Druid is healed 12 Hit Points after using this ability." should be missing (this is not the Druid variant)
+*/
+@40313 = "Métamorphose en élémentaire d'eau
+
+Force : 18
+Dextérité : 14
+
+Classe d'Armure de base : -2
+Attaques par round : 1
+Dégâts : 4d8 (contondant), touche comme une arme +4
+
+Capacités spéciales :
+- résistance au froid : -25 %
+- résistance à l'électricité : -75 %
+- résistance à l'acide : 75 %
+- résistance aux dégâts tranchants : 75 %
+- résistance aux dégâts contondants : 75 %
+- résistance aux dégâts perforants : 75 %
+- résistance aux dégâts projectiles : 75 %
+"
