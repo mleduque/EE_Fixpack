@@ -17,6 +17,20 @@ Mazzy
 
 La page a été déchirée en deux et le texte s'arrête ici.~
 
+// second sentence in description said "1d2 carrion crawlers", but actually it's a 35/65 split. Changed to a more general "one or two carrion crawlers"
+// same fix required for bg (26586), bg2 (29212), and iwd (35784)
+@29212 = ~Convocation de vers charognards
+(Conjuration/Convocation)
+
+Niveau : 6
+Portée : 36,5 m
+Durée : 7 rounds + 1 round par niveau
+Temps d'incantation : 9
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun
+
+Ce sort se divise en deux parties. La première partie consiste à créer un petit portail par lequel apparaissent 1 ou 2 vers charognards jusqu'à un point désigné par le magicien. Ensuite, la magie transforme les vers charognards en versions plus grandes et plus agressives. Le magicien a désormais le contrôle de ces créatures jusqu'à l'expiration du sort ou leur mort. Il y a 35 % de chances que deux vers charognards soient invoqués au lieu d'un seul.~
+
 // this item's name should state its enchantment level
 @57918 = "Carreau paralysant +1"
 

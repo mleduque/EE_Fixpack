@@ -194,6 +194,12 @@ Nécessite : 13 en force
 
 Poids : 4~
 
+// second sentence in description said "1d2 carrion crawlers", but actually it's a 35/65 split. Changed to a more general "one or two carrion crawlers"
+// same fix required for bg (26586), bg2 (29212), and iwd (35784)
+// no changes needed in french
+//@35784 = ~Carrion Summons
+
+
 // ie-6007, cam - see also items clbhand, kaybow, lxbowbm, cdxbowbm, storm, flailsk; strings 8663, 8712, 8911, 25818, 27373
 // Weapon damage corrections
 @40639 =~L'arbalète de Bren Muller
