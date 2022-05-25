@@ -623,6 +623,7 @@ luke
 mleduque: the original french translation lacks many resistances
 adds cold 50, slash/buldg/perf/proj 15 from english
 adds acid 15, electricity 15 as https://www.gibberlings3.net/forums/topic/34925-shapeshifting-inconsistencies/?do=findComment&comment=310797
+remove +2 weapon immunity
 */
 @36184 = "Métamorphose en élémental de feu
 
@@ -642,8 +643,7 @@ Capacités spéciales :
 - résistance aux dégâts tranchants : 15 %
 - résistance aux dégâts contondants : 15 %
 - résistance aux dégâts perforants : 15 %
-- résistance aux dégâts projectiles : 15 %
-- immunité aux armes +2 ou moins"
+- résistance aux dégâts projectiles : 15 %"
 
 /*
 luke
@@ -653,6 +653,7 @@ luke
 mleduque
 Added cold/fire 25 (corrected from 20 as https://www.gibberlings3.net/forums/topic/34925-shapeshifting-inconsistencies/?do=findComment&comment=310797)
 Added slash/buldg/perf/proj from english
+remove +2 weapon immunity
 */
 @36186 = "Métamorphose en élémental de terre
 
@@ -669,8 +670,7 @@ Capacités spéciales :
 - résistance aux dégâts tranchants : 50 %
 - résistance aux dégâts contondants : -50 %
 - résistance aux dégâts perforants : 50 %
-- résistance aux dégâts projectiles : 75 %
-- immunité aux armes +2 ou moins"
+- résistance aux dégâts projectiles : 75 %"
 
 /*
 luke
