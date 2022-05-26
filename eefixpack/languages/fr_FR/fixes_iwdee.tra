@@ -397,7 +397,9 @@ Dégâts : 1d8 (contondant) + 1d4 dégâts de feu, touche comme une arme +4
 
 Capacités spéciales :
 - résistance au froid : -50 %
+- résistance au froid magique : -50 %
 - résistance au feu : 100 %
+- résistance au feu magique : 100 %
 - résistance à l'acide : 15 %
 - résistance à l'électricité : 15 %
 - résistance aux dégâts tranchants : 15 %
@@ -422,7 +424,9 @@ Dégâts : 4d8 (contondant), touche comme une arme +4
 
 Capacités spéciales :
 - résistance au froid : 25 %
+- résistance au froid magique : 25 %
 - résistance au feu : 25 %
+- résistance au feu magique : 25 %
 - résistance aux dégâts tranchants : 50 %
 - résistance aux dégâts contondants : -50 %
 - résistance aux dégâts perforants : 50 %
@@ -445,6 +449,7 @@ Dégâts : 4d8 (contondant), touche comme une arme +4
 
 Capacités spéciales :
 - résistance au froid : -25 %
+- résistance au froid magique : -25 %
 - résistance à l'électricité : -75 %
 - résistance à l'acide : 75 %
 - résistance aux dégâts tranchants : 75 %
@@ -623,7 +628,9 @@ Capacités spéciales :
 
 /*
 luke
-"strikes as a +4 weapon" should not be missing
+
+- "strikes as a +4 weapon" should not be missing
+- Added missing 15% acid and electricity resist
 */
 /*
 mleduque: the original french translation lacks many resistances
@@ -644,6 +651,7 @@ Capacités spéciales :
 - résistance au feu : 100 %
 - résistance au feu magique : 100 %
 - résistance au froid : -50 %
+- résistance au froid magique : -50 %
 - résistance à l'acide : 15 %
 - résistance à l'électricité : 15 %
 - résistance aux dégâts tranchants : 15 %
@@ -653,11 +661,11 @@ Capacités spéciales :
 
 /*
 luke
-"strikes as a +4 weapon" should not be missing
+- "strikes as a +4 weapon" should not be missing
+- fire and cold resist should be 25%, not 20%
 */
 /*
 mleduque
-Added cold/fire 25 (corrected from 20 as https://www.gibberlings3.net/forums/topic/34925-shapeshifting-inconsistencies/?do=findComment&comment=310797)
 Added slash/buldg/perf/proj from english
 remove +2 weapon immunity
 */
@@ -672,32 +680,10 @@ Dégâts : 4d8 (contondant), touche comme une arme +4
 
 Capacités spéciales :
 - résistance au froid : 25 %
+- résistance au froid magique : 25 %
 - résistance au feu : 25 %
+- résistance au feu magique : 25 %
 - résistance aux dégâts tranchants : 50 %
 - résistance aux dégâts contondants : -50 %
 - résistance aux dégâts perforants : 50 %
 - résistance aux dégâts projectiles : 75 %"
-
-/*
-luke
-- "strikes as a +4 weapon" should not be missing
-- "The Druid is healed 12 Hit Points after using this ability." should be missing (this is not the Druid variant)
-*/
-@40313 = "Métamorphose en élémentaire d'eau
-
-Force : 18
-Dextérité : 14
-
-Classe d'Armure de base : -2
-Attaques par round : 1
-Dégâts : 4d8 (contondant), touche comme une arme +4
-
-Capacités spéciales :
-- résistance au froid : -25 %
-- résistance à l'électricité : -75 %
-- résistance à l'acide : 75 %
-- résistance aux dégâts tranchants : 75 %
-- résistance aux dégâts contondants : 75 %
-- résistance aux dégâts perforants : 75 %
-- résistance aux dégâts projectiles : 75 %
-"

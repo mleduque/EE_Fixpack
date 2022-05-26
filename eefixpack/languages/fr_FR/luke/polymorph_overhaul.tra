@@ -2,4 +2,27 @@
 
 @1 = ~Métamorphose forme naturelle (Changement de forme)~
 
-@2 = "Dévorer le cerveau"
+/*
+IWD:EE, @40313: This is used for both the druid shapeshift and the mage shapechange. A new text string should be created for the Shapechange version.
+Notably, "The Druid is healed 12 Hit Points after using this ability." should be missing in the mage shapechange
+*/
+@2 = "Métamorphose en élémentaire d'eau
+
+Force : 18
+Dextérité : 14
+
+Classe d'Armure de base : -2
+Attaques par round : 1
+Dégâts : 4d8 (contondant), touche comme une arme +4
+
+Capacités spéciales :
+- résistance au froid : -25 %
+- résistance au froid magique : -25 %
+- résistance à l'électricité : -75 %
+- résistance à l'acide : 75 %
+- résistance aux dégâts tranchants : 75 %
+- résistance aux dégâts contondants : 75 %
+- résistance aux dégâts perforants : 75 %
+- résistance aux dégâts projectiles : 75 %"
+
+@3 = "Dévorer le cerveau"
