@@ -2,6 +2,13 @@
 // the corresponding string in the tlk. Remember to comment why a string is being updated. Once you have legitimate
 // strings to replace, rename this file WITHOUT the underscore at the beginning. 
 
+ // manual fix: had sound file narr01 assigned, but changed to narr04 to match oBG2 (pointless regardless: string is unused _ sound file doesn't exist)
+ @1763 =~Les acclamations de la foule vous accompagnent jusqu'aux portes de la ville de Suldanessellar. La gratitude des elfes se lit sur leurs visages et vous avez dû maintes fois vous arrêter pour serrer une main ou recevoir une accolade. Votre départ semble vraiment attrister les habitants et vous savez maintenant que votre présence sera toujours la bienvenue ici. Vous faites désormais partie de leurs héros, et plus important encore, vous vous laissez envahir par un sentiment apaisant d'appartenir pleinement à une communauté.
+
+Vous vous enfoncez dans la forêt du Téthyr en vous demandant si vous auriez pu rester parmi eux. L'amulette qui orne votre cou, la représentation des dieux elfes gravée dans le platine, la chaleur bienfaisante de l'objet magique... Ce présent est la marque de votre appartenance à la communauté des elfes... mais aussi le symbole que vous êtes de la race des aventuriers, de ceux qui ne connaissent jamais le repos douillet d'une maison où attend une famille aimante. Vous pourriez retourner à Athkatla, mais cette pensée ne vous enchante pas outre mesure.
+
+Vous ne pourrez jamais vous établir où que ce soit, vous en avez désormais la certitude, et il ne vous reste plus qu'à vous enfoncer encore plus profondément dans la forêt, à méditer sur votre sort, celui que le destin, imprévisible, vous a tracé...~ [NARR04]
+
 // changing "Émotion : Désespoir" to "Émotion, Désespoir" (other spells use a comma and no capital)
 @22173 = ~Émotion, désespoir~
 // changing "Émotion : désespoir" to "Émotion, désespoir"

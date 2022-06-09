@@ -436,31 +436,6 @@ Le druide récupère 12 points de vie après l'utilisation de cette capacité."
 
 /*
 luke
-"strikes as a +4 weapon" should not be missing
-*/
-@40313 = "Métamorphose en élémentaire d'eau
-
-Force : 18
-Dextérité : 14
-
-Classe d'Armure de base : -2
-Attaques par round : 1
-Dégâts : 4d8 (contondant), touche comme une arme +4
-
-Capacités spéciales :
-- résistance au froid : -25 %
-- résistance au froid magique : -25 %
-- résistance à l'électricité : -75 %
-- résistance à l'acide : 75 %
-- résistance aux dégâts tranchants : 75 %
-- résistance aux dégâts contondants : 75 %
-- résistance aux dégâts perforants : 75 %
-- résistance aux dégâts projectiles : 75 %
-
-Le druide récupère 12 points de vie après l'utilisation de cette capacité."
-
-/*
-luke
 "strikes as a +2 weapon" should not be missing
 */
 @40941 = "Métamorphose en scarabée scolyte
@@ -694,3 +669,28 @@ Capacités spéciales :
 Cette capacité permet au rôdeur de charmer un animal et d'influencer son comportement. La cible a droit à un jet de sauvegarde contre les baguettes pour échapper au charme. En cas d'échec, il considère le rôdeur comme un véritable ami et allié méritant son attention et sa protection pendant un tour. Ce dernier peut donner des ordres à l'animal, qui les exécute le plus vite possible. Le charme dure deux tours.
 
 Si le jeteur de sorts nuit ou essaie de nuire à l'animal sous le charme, le charme est rompu. Si plusieurs effets de charmes affectent simultanément un animal, le charme le plus récent prend le dessus.~
+
+
+/*
+luke
+- "strikes as a +4 weapon" should not be missing
+- "The Druid is healed 12 Hit Points after using this ability." should be missing (this is not the Druid variant)
+*/
+@40313 = ~@40313 = "Métamorphose en élémentaire d'eau
+
+Force : 18
+Dextérité : 14
+
+Classe d'Armure de base : -2
+Attaques par round : 1
+Dégâts : 4d8 (contondant), touche comme une arme +4
+
+Capacités spéciales :
+- résistance au froid : -25 %
+- résistance au froid magique : -25 %
+- résistance à l'électricité : -75 %
+- résistance à l'acide : 75 %
+- résistance aux dégâts tranchants : 75 %
+- résistance aux dégâts contondants : 75 %
+- résistance aux dégâts perforants : 75 %
+- résistance aux dégâts projectiles : 75 %~
