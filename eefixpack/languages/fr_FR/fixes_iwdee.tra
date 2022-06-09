@@ -610,7 +610,6 @@ luke
 /*
 mleduque: the original french translation lacks many resistances
 adds cold 50, slash/buldg/perf/proj 15 from english
-adds acid 15, electricity 15 as https://www.gibberlings3.net/forums/topic/34925-shapeshifting-inconsistencies/?do=findComment&comment=310797
 remove +2 weapon immunity
 */
 @36184 = "Métamorphose en élémental de feu
@@ -676,7 +675,7 @@ luke
 - "strikes as a +4 weapon" should not be missing
 - "The Druid is healed 12 Hit Points after using this ability." should be missing (this is not the Druid variant)
 */
-@40313 = ~@40313 = "Métamorphose en élémentaire d'eau
+@40313 = "Métamorphose en élémentaire d'eau
 
 Force : 18
 Dextérité : 14
