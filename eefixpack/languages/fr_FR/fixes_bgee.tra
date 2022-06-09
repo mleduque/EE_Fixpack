@@ -8,6 +8,15 @@
 // no changes needed in french
 //@26586 = ~Convocation de vers charognards
 
+// ranger charm animal description doesn't mention the duration of the charm; added the sentence at the end of the first paragraph
+@32228 = ~Charme-animal
+
+Ce sort affecte n'importe quel animal ciblé. Ce dernier a tout de même droit à un jet de sauvegarde contre les sorts pour y échapper. Le charme dure deux tours.
+
+En cas d'échec, il considère le lanceur comme un véritable ami et allié méritant son attention et sa protection. Ce dernier peut donner des ordres à l'animal charmé qui les exécute le plus vite possible.
+
+Si le jeteur de sorts nuit ou essaie de nuire à l'animal sous le charme par une action non déguisée, ou si un sort de Dissipation de la magie est jeté avec succès, le charme est rompu. Si plusieurs effets de charmes affectent simultanément un animal, le charme le plus récent prend le dessus. Notez que le sujet deviendra hostile lorsque le charme prendra fin. Notez aussi que vous ne pouvez faire quitter à la créature la zone dans laquelle elle a été charmée.~
+
 /*
 luke
 - "Regenerates 1 Hit Point per 2 seconds"

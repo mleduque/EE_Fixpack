@@ -687,3 +687,10 @@ Capacités spéciales :
 - résistance aux dégâts contondants : -50 %
 - résistance aux dégâts perforants : 50 %
 - résistance aux dégâts projectiles : 75 %"
+
+// ranger charm animal description doesn't mention the duration of the charm; added the sentence at the end of the first paragraph
+@40299 = ~Charme-animal
+
+Cette capacité permet au rôdeur de charmer un animal et d'influencer son comportement. La cible a droit à un jet de sauvegarde contre les baguettes pour échapper au charme. En cas d'échec, il considère le rôdeur comme un véritable ami et allié méritant son attention et sa protection pendant un tour. Ce dernier peut donner des ordres à l'animal, qui les exécute le plus vite possible. Le charme dure deux tours.
+
+Si le jeteur de sorts nuit ou essaie de nuire à l'animal sous le charme, le charme est rompu. Si plusieurs effets de charmes affectent simultanément un animal, le charme le plus récent prend le dessus.~

@@ -19,3 +19,7 @@ Jet de sauvegarde : spécial
 Lorsqu'il jette ce sort, le magicien peut modifier l'état émotionnel de ceux qui l'entourent. Le jeteur de sort peut alors insuffler un sentiment de désespoir aux ennemis qui se trouvent dans son champ d'action. Après avoir en vain effectué un jet de sauvegarde contre les sorts, la victime s'allonge et abandonne toute volonté à un pouvoir supérieur. Elle s'exclame parfois « Je m'allonge ici pour y mourir » ou « Je rentre chez moi ». Cela dure le temps du sort, puis elle retrouve son état normal.
 
 Ce sort a également pour effet d'instiller du courage au jeteur de sort. Il efface tous les sentiments de panique, restaure la force mentale et empêche la panique de pénétrer davantage dans son psychisme. Il n'y a pas de jet de sauvegarde contre ce sort et ses effets durent le temps du sort. Il est par contre sensible à la résistance à la magie et autres phénomènes de ce type.~
+
+// token is wrong: <PRO_CHARNAME> > <CHARNAME>
+// same in french
+@8229  = ~Shar ! Ma survie est entre vos mains. Attendez... Je vous reconnais ! <CHARNAME> ! C'est moi ! Viconia DeVir ! Vous devez vous souvenir de moi ! Ma vie en dépend !~ [VICONI01]
